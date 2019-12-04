@@ -52,6 +52,11 @@ nav ul li:last-of-type {
   width: 8em;
 }
 
+footer p a {
+  text-decoration: none;
+  color: rgb(0, 133, 195);
+}
+
 nav ul li a {
   height: 100%;
   color: white;
@@ -136,11 +141,6 @@ footer {
   font-size: 0.6em;
   color: dimgray;
   padding-top: 1em;
-}
-
-footer p a {
-  text-decoration: none;
-  color: rgb(0, 133, 195);
 }
 
 .footer p a:hover {
