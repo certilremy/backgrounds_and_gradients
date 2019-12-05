@@ -5,11 +5,11 @@ Old Apple web site page clone  with flex box .
 ## Captures
 
 ### My solution 
-![GitHub Logo](./my_solution.png)
+![my solution](./my_solution.png)
 
 ### Original from apple 
 
-![GitHub Logo](./apple_solution.png)
+![Apple solution](./apple_original.png)
 
 ## Getting Started
 
