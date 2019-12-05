@@ -25,7 +25,7 @@ a {
 }
 
 nav {
-  width: 61em;
+  width: 980px;
   background: lightgray;
   background: linear-gradient(rgb(131, 131, 131) 50%, rgb(112, 112, 112) 50%);
   height: 2.5em;
@@ -37,8 +37,7 @@ nav {
 
 nav ul {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  width: 100%;
   list-style: none;
 }
 
@@ -47,9 +46,12 @@ nav ul > * {
   height: 2.5em;
 }
 
+nav ul li:nth-of-type(-n + 8) {
+  width: 106px;
+}
+
 nav ul li:last-of-type {
-  border: none;
-  width: 8em;
+  width: 132px;
 }
 
 footer p a {
@@ -58,9 +60,11 @@ footer p a {
 }
 
 nav ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100%;
   color: white;
-  margin-right: 35px;
   text-decoration: none;
   font-size: 0.9em;
 }
@@ -69,10 +73,17 @@ nav ul li a {
   width: 1.5em;
 }
 
+form {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 8px 13px;
+}
+
+
 #search {
-  width: 80%;
-  margin-left: 1em;
-  margin-top: 0.75em;
+  width: 100%;
   border-radius: 1em;
   background: linear-gradient(rgb(131, 131, 131) 70%, rgb(112, 112, 112) 50%) no-repeat;
   background-size: 12px 12px;
@@ -80,7 +91,6 @@ nav ul li a {
   border-bottom: 1px solid rgb(144, 144, 144);
   border-left: none;
   border-right: none;
-  padding-left: 2em;
 }
 
 #search:focus {
@@ -89,6 +99,11 @@ nav ul li a {
   width: 95%;
   transition-duration: 0.3s;
 }
+
+#text-menu {
+ margin-top: 10px;
+}
+
 
 #promo-text,
 #sub-id {
