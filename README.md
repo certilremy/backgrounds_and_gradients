@@ -1,15 +1,16 @@
 # Building with Backgrounds and Gradients
 
-Old Apple web site page clone  with flex box .
+Old Apple web site page clone with flex box .
 
 ## Captures
 
-### My solution 
-![my solution](./img/my_solution.png)
+### My solution
 
-### Original from apple 
+![my solution](/img/my_solution.png)
 
-![Apple solution](./img/apple_original.png)
+### Original from apple
+
+![Apple solution](/img/apple_original.png)
 
 ## Getting Started
 
@@ -17,7 +18,7 @@ One should download the project and open index.html file in a browser and voila!
 
 ## Built With
 
-* [VS Code](https://code.visualstudio.com/) - The code editor used
+- [VS Code](https://code.visualstudio.com/) - The code editor used
 
 ## Contributing
 
@@ -25,7 +26,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Authors
 
-* **Certil Remy** - [certilremy](https://github.com/certilremy) ,for contact Twitter @certilremy
+- **Certil Remy** - [certilremy](https://github.com/certilremy) ,for contact Twitter @certilremy
 
 ## License
 
