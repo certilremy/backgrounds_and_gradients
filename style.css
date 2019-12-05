@@ -81,7 +81,6 @@ form {
   padding: 8px 13px;
 }
 
-
 #search {
   width: 100%;
   border-radius: 1em;
@@ -101,9 +100,8 @@ form {
 }
 
 #text-menu {
- margin-top: 10px;
+  margin-top: 10px;
 }
-
 
 #promo-text,
 #sub-id {
@@ -144,29 +142,29 @@ h1 {
 
 footer {
   width: 80%;
-  grid-column: 1/-1;
-  margin: auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto auto;
-  align-items: center;
-  align-content: center;
-  grid-column-gap: 5em;
-  grid-row-gap: 2em;
   font-size: 0.6em;
   color: dimgray;
   padding-top: 1em;
+  margin: auto;
 }
 
-.footer p a:hover {
+.element-1 {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.element-2 {
+  margin-left: 45px;
+}
+
+.element-1 p a:hover {
   text-decoration: underline rgb(0, 133, 195);
 }
 
-.footer p:nth-of-type(3) {
-  justify-self: center;
-  padding-left: 23.3em;
-  position: relative;
-  bottom: 1.5em;
+.element-2 p a:hover {
+  text-decoration: underline rgb(0, 133, 195);
 }
 
 #flag {
