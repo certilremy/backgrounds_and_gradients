@@ -148,7 +148,12 @@ footer {
   margin: auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: baseline;
+}
+
+.element-2 {
+  display: flex;
+  align-items: flex-start;
 }
 
 .element-1 #p1 {
